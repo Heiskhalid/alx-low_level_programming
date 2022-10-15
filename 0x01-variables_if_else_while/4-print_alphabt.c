@@ -3,27 +3,23 @@
 
 
 /**
- *	main - prints the alphabet in lowercase,
+ *	main - prints all single digit numbers of base
  *
- *	Followed by a new line, except q and e
+ *	10 starting from 0, followed by a new line
  *
- *	Return: Aways 0 (Sucess)
+ *	Return: Always 0 (Success)
  *
  **/
 
 int main(void)
 
 {
-char ch = 'a';
-while (ch <= 'z')
-{
-if (ch != 'e' && ch != 'q')
-{
-putchar(ch);
-}
-	ch++;
-}
-putchar('\n');
+int n;
+for (n = 0; n < 10; n++)
+
+printf("%d", n);
+
+printf("\n");
 
 return (0);
 
