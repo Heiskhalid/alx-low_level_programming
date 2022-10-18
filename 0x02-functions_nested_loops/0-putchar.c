@@ -1,23 +1,24 @@
 #include "main.h"
 
 /**
- *	main - print out the characters
+ * main - prints Putchar
  *
- *	Description: return the required results
+ * Description: prints _putchar
  *
- *	Return: return integer value 0
- **/
+ * Return: 0 (Success)
+ */
 
 int main(void)
 {
-int n = 0;
-char name[8] = "_putchar";
-while (n < 8)
-{
-_putchar(name[n]);
-n++;
-}
-_putchar('\n');
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
+	return (0);
 }
